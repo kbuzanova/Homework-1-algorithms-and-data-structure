@@ -1,0 +1,53 @@
+﻿Task 1: Complexity Analysis of Algorithms
+
+        1. The complexity of this algorithm is O(n) because the worst case is when a needed element is the last in the array, and the algorithm must go through the entire list.
+2. The complexity of this algorithm is O(N^2) because even if elements in a list are sorted in the correct order, the algorithm still needs to go through the entire list for checking.
+3. The complexity of this algorithm is O(n) because the algorithm always goes through the entire list only once and sums all elements. 
+
+
+Task 2: Estimation of the Average Value of a Portfolio
+
+
+The complexity of my algorithm is O(n) because the algorithm always goes through the entire list only once and calculates the average value. 
+
+
+Task 3: Comparing Linear and Binary Search
+
+
+Why is binary search faster on sorted arrays? 
+
+
+Binary search is faster on sorted arrays than linear search because its algorithm reject half of the elements since we can verify what part we need to consider. At the same time, the linear search algorithm just checks each element, not depending on whether the array is sorted or not. So, a binary search with a sorted array finds the needed element by O(log(n)) comparisons and a linear search must have O(n) comparisons. As a result, it allows it to be faster when there is a big array.
+
+
+Time complexity:
+
+
+The complexity of linear search is O(n) because the worst case is when a needed element is the last in the array, and the algorithm must go through the entire list.
+
+
+The complexity of the binary search is O(log(n)) because binary search uses the method of dividing the array into two parts and comparing the middle element with the needed value => decreasing the area of the search twice with every next step.
+
+
+Space complexity:
+
+
+The complexity of linear search is O(1) because its algorithm uses only a few variables for indexation.
+
+
+The complexity of the binary search is also O(1) because its algorithm does not create any new data structure for search.
+
+
+
+
+
+
+
+
+
+
+Task 4: A queue and a doubly linked list
+
+
+Benefits of the queue: it is used when we need to process elements in the order of FIFO. It is also suitable for different tasks, such as processing print queues and operational system tasks or queries. 
+The benefits of a doubly linked list are that it effectively navigates both sides (forward and backward). It is also good to paste/delete elements in the middle.
